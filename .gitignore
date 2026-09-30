@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases
+*.db
+
+# Datasets
+*.csv
+*.json
+
+# Uploaded images/data
+**/uploads/
+**/patients/
+
+# Virtual environments
+**/venv/
+.env
+
+# Frontend
+**/node_modules/
+**/dist/
