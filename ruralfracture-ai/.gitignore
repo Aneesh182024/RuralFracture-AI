@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases
+*.db
+
+# Datasets
+ruralfracture_dataset.csv
+ruralfracture_dataset.json
+dataset_report.json
+!package.json
+!package-lock.json
+!**/package.json
+!**/package-lock.json
+
+# Uploaded images & model binaries
+**/uploads/
+**/patients/
+models/*.pth
+!models/latest_model_metrics.json
+
+# Virtual environments
+**/venv/
+.env
+
+# Frontend
+**/node_modules/
+**/dist/
