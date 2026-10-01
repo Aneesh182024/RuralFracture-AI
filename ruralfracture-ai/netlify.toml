@@ -1,6 +1,6 @@
 [build]
-  command = "cd frontend && npm install && npm run build"
-  publish = "frontend/dist"
+  command = "cd frontend && npm install && npm run build && node -e \"const fs = require('fs'); fs.cpSync('dist', '../dist', { recursive: true });\""
+  publish = "dist"
 
 [[redirects]]
   from = "/*"

@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && node -e \"const fs = require('fs'); fs.cpSync('dist', '../dist', { recursive: true });\""
   publish = "dist"
 
 [[redirects]]
